@@ -17,3 +17,14 @@ The goal is to reduce complexity and make it more SOLID.
 - ❗Incorporate exception handling with at least one custom exception.
 - ❗Refactor to allow creation of small testable units.
 - ❗Write a simple Javadoc with essential information for one or more of the newly created methods or classes.
+
+## Test Cases:
+The application contains different cases to testing:
+- Mastercard: Generate orders to pay with Mastercard and know if the user has a discount.
+- Visa: Generate orders to pay with Visa and know if the user has a discount.
+- Other Payments: Generate orders to pay with other options, the user hasn't a discount.
+
+## BigDecimal for Finance:
+Money or the type of monetary data is a fundamental part of many information systems; because the operations with it should be precise, and the roundings too.
+
+BigDecimal is an exact way of representing numbers, and allows you to work with greater precision than, for example, the double data type.
